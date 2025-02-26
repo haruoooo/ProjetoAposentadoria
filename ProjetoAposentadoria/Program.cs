@@ -20,7 +20,7 @@ namespace ValidacaoAposentadoria
                 Console.Write("Digite sua idade: ");
                 int idade = int.Parse(Console.ReadLine());
 
-                Console.Write("Digite seu tempo de contribuição: ");
+                Console.Write("Digite seu tempo de contribuição (em anos): ");
                 int tempoContribuicao = int.Parse(Console.ReadLine());
 
                 int idadeMinima = 65, tempoMinimo = 15;
@@ -42,3 +42,4 @@ namespace ValidacaoAposentadoria
         }
     }
 }
+
